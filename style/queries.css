@@ -1,0 +1,147 @@
+/* ------------------------------ */
+/* -------- BELOW 1100px -------- */
+/* ------------------------------ */
+
+@media (max-width: 1100px) {
+  .menubar {
+    width: 90%;
+  }
+
+  .nav-list {
+    gap: 30px;
+  }
+
+  .hr {
+    width: 72%;
+  }
+}
+
+/* ------------------------------ */
+/* -------- BELOW 1000px -------- */
+/* ------------------------------ */
+
+@media (max-width: 1000px) {
+  .menubar {
+    width: 100%;
+  }
+
+  .logo {
+    margin-top: 30px;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .hr {
+    width: 73%;
+  }
+
+  .call-us-action {
+    flex-wrap: wrap;
+    row-gap: 0;
+  }
+
+  .pop-card-1 {
+    top: 20vh;
+  }
+
+  .header-text {
+    margin-top: 30vh;
+  }
+
+  .pop-card-2 {
+    right: 16%;
+    top: 74vh;
+  }
+}
+
+/* ------------------------------ */
+/* -------- BELOW 750px -------- */
+/* ------------------------------ */
+
+@media (max-width: 750px) {
+  header {
+    min-height: 110vh;
+  }
+
+  .logo {
+    margin-top: 0px;
+    width: 130px;
+  }
+
+  .menubar {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 11;
+    margin-right: 5%;
+  }
+
+  .header-text {
+    margin-top: 50px;
+  }
+
+  .pop-card-1 {
+    top: 47vh;
+  }
+
+  .heading-primary {
+    font-size: 54px;
+  }
+
+  .pop-card-2 {
+    left: 0;
+    top: 78vh;
+  }
+}
+
+/* ------------------------------ */
+/* -------- BELOW 600px -------- */
+/* ------------------------------ */
+
+@media (max-width: 600px) {
+  .heading-primary {
+    font-size: 40px;
+  }
+
+  .learn-more-btn {
+    margin-top: 20px;
+    padding: 14px 32px;
+    font-size: 18px;
+  }
+
+  .pop-card-2 {
+    right: 0;
+  }
+}
+
+/* ------------------------------ */
+/* -------- BELOW 450px -------- */
+/* ------------------------------ */
+
+@media (max-width: 450px) {
+  .heading-primary {
+    font-size: 36px;
+  }
+
+  .learn-more-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+
+  .pop-card-1 {
+    top: 50vh;
+  }
+
+  .pop-box {
+    padding: 20px;
+  }
+
+  .pop-card-2 {
+    top: 80vh;
+  }
+}
